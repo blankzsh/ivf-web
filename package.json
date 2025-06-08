@@ -7,7 +7,7 @@
     "start:frontend": "cd frontend && pnpm dev",
     "start:backend": "cd backend && pnpm dev",
     "dev": "concurrently \"pnpm run start:server\" \"pnpm run start:frontend\" \"pnpm run start:backend\"",
-    "install:all": "pnpm install && cd frontend && pnpm install"
+    "install:all": "pnpm install && cd frontend && pnpm install && cd ../backend && pnpm install"
   },
   "keywords": [],
   "author": "",
